@@ -85,6 +85,29 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: $base-font-weight;
 }
 
+h1 {
+  color: $brand-color;
+}
+
+h2 {
+  color: #6da5ff;
+}
+
+h3 {
+  color: #cea0ff;
+}
+
+h4 {
+  color: #ff8282;
+}
+
+h5 {
+  color: #ffa94f;
+}
+
+h6 {
+  color: #f7e279;
+}
 
 
 /**
@@ -137,9 +160,9 @@ blockquote {
 pre,
 code {
   @include relative-font-size(0.9375);
-  border: 1px solid #151515;
+  border: 1px solid $grey-color-dark;
   border-radius: 3px;
-  background-color: #1e1e1e;
+  background-color: #000;
 }
 
 code {
