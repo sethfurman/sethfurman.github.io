@@ -7,6 +7,8 @@ permalink: /about/
 *{{ site.title }}* is Seth Furman's personal webpage about programming and
 maybe some other stuff too.
 
+Created with [Jekyll](https://jekyllrb.com/).
+
 Who?
 ----
 Seth is from the Greater Philadelphia area and studies computer science at

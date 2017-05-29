@@ -11,8 +11,7 @@ Overview
 As part of my systems programming course, I completed a project that had us
 implement a dynamic memory allocation library in C. Our library would manage a
 given block of memory (a heap) with analogs of the standard library functions
-`malloc`, `realloc`, and `free` named (respectively) `hl_alloc`, `hl_resize`,
-and `hl_release`.
+`malloc`, `realloc`, and `free`.
 
 To make our implementation time-efficent (and for fun) I decided to implement a
 Red-Black Tree (RBT), which would be used as follows:
@@ -49,4 +48,49 @@ Linux) check out the GitHub repository
 
 [turbak-rbt.pdf]: /assets/documents/red-black.pdf
 [vasyanovikov]: https://stackoverflow.com/users/1091436/vasyanovikov
-[tree-pretty-print]: /assets/documents/tree_pretty_print_post.html
+[tree-pretty-print]: #vasyanovikov-implementation
+
+<h3 id="vasyanovikov-implementation">
+VasyaNovikov's tree pretty-printing implementation
+</h3>
+
+<h4>Output example</h4>
+<pre style="line-height: 1.0;">
+└── z
+    ├── c
+    │   ├── a
+    │   └── b
+    ├── d
+    ├── e
+    │   └── asdf
+    └── f
+</pre>
+
+<h4>Code -- Java</h4>
+```java
+public class TreeNode {
+
+    final String name;
+    final List<TreeNode> children;
+
+    public TreeNode(String name, List<TreeNode> children) {
+        this.name = name;
+        this.children = children;
+    }
+
+    public void print() {
+        print("", true);
+    }
+
+    private void print(String prefix, boolean isTail) {
+        System.out.println(prefix + (isTail ? "└── " : "├── ") + name);
+        for (int i = 0; i < children.size() - 1; i++) {
+            children.get(i).print(prefix + (isTail ? "    " : "│   "), false);
+        }
+        if (children.size() > 0) {
+            children.get(children.size() - 1)
+                    .print(prefix + (isTail ?"    " : "│   "), true);
+        }
+    }
+}
+```
