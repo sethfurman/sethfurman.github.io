@@ -37,8 +37,6 @@ the Temple University Health System though they hope to serve smaller companies
 in the future.
 
 ## What did I do?
-**TODO: run this by Brittany/Brandon (~and Evan...)**
-
 Over the course of my 10 weeks at Accolade (6/12/2017 - 8/17/2017) I worked as
 a software developer intern on the "identity" team, known officially as Dragon
 Team.
