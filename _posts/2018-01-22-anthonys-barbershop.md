@@ -3,7 +3,7 @@ layout: post
 title:  "Anthony's Barbershop"
 date:   2018-01-22
 author: Seth Furman
-categories: web progamming javascript html css golang api s3
+categories: web progamming
 ---
 
 <style>
