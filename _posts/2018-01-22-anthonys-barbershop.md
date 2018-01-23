@@ -41,6 +41,6 @@ framework for golang.
 ## The front-end to the API
 
 ## The Webpage
-Click [here](/assets/documents/anthonys-barbershop/home.html) for the
+Click [here](/assets/documents/anthonys-barbershop/home.html) to view the
 stand-alone webpage.
 <iframe style="width: 90%; height: 50vw" src="/assets/documents/anthonys-barbershop/home.html"></iframe>
