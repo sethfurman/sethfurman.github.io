@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title:  "Anthony's Barber Shop"
 date:   2018-01-22
@@ -11,7 +11,7 @@ categories: web progamming
     h1, h2, h3, h4 { font-family: 'Lobster Two'; }
 </style>
 
-## Creating a webpage
+## A webpage
 During my winter break (Dec. 2017 to Jan. 2018) I decided to create a webpage
 from scratch to brush up on my HTML, CSS, and JavaScript and to practice
 creating a simple web API to dynamically update the page using Ajax.
