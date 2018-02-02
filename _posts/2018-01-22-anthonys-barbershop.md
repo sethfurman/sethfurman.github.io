@@ -83,6 +83,11 @@ $("#api-get-input").keyup(function(event) {
         getRequest(path);
     }
 });
+
+window.onload = function () {
+    var path = document.getElementById("api-get-input").value;
+    getRequest(path);
+}
 </script>
 
 <span style="color: #e8437c; font-size: 1.2em; font-family: 'Lobster Two'">Note:</span> The PUT and DELETE methods (for adding
