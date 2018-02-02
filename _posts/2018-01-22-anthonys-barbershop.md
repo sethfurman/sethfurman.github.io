@@ -54,7 +54,7 @@ GET: <input id="api-get-input" type="text" value="/hours">
 </pre>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
-const apiBaseUrl = "http://192.241.140.179:8080";
+var apiBaseUrl = "https://bigturtle.me";
 
 function getRequest(path) {
     var httpRequest = new XMLHttpRequest();
