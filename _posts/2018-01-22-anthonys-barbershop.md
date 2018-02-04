@@ -106,6 +106,6 @@ the homepage.
 
 ## Quick links
 - [Mr. Canamucio's original webpage](http://www.langhornebarber.com/)
-- [Source code for my version of the barbershop webpage](https://github.com/sfurman3/anthonys-barbershop-webpage)
+- [Source code for my version of the barbershop webpage](https://github.com/sfurman3/anthonys-barbershop-webpage/tree/release_v1)
 - [Source code for the `/hours` API](https://github.com/sfurman3/anthonys-barbershop-api/tree/release_v1)
 - [Source code for this webpage](https://github.com/sethfurman/sethfurman.github.io/blob/master/_posts/2018-01-22-anthonys-barbershop.md)
