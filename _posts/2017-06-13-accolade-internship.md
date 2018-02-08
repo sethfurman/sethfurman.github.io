@@ -17,8 +17,8 @@ They do this largely with "health assistants," employees trained to take calls
 where they answer questions and provide guidance.
 
 Accolade's services improve the experiences and outcomes of those consuming
-healthcare and save money for their employers by helping users the right care
-and advice when they need it.
+healthcare and save money for their employers by helping users get the right
+care and advice when they need it.
 
 <a data-flickr-embed="true"  href="https://www.flickr.com/photos/wittistanbulsuites/3440791711/in/photolist-pe7Fyj-pTFGMR-pTFFqx-SYx3sy-pTwXPJ-pekYVr-pTwE3G-qb6HyK-dhGCh8-pTFPy6-qb71j8-QFjbgb-q8fyXQ-pTFR9a-9dtMuK-qaVNiF-7ugJLA-2GxLr-nEyjBT-7ucQKg-5R89X7-6f3Xv2-pekWMP-6xhy1c-b4i88" title="Witt Istanbul Suites"><img src="https://farm4.staticflickr.com/3339/3440791711_28e5d9d703.jpg" width="500" height="335" alt="Witt Istanbul Suites"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
